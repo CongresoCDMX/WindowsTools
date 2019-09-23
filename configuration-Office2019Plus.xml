@@ -1,0 +1,35 @@
+<Configuration ID="bacdeb33-9362-4fcc-8d3f-7e7fdec412f3">
+  <Info Description="Office Professional Plus 2019" />
+  <Add OfficeClientEdition="64" Channel="PerpetualVL2019" ForceUpgrade="TRUE">
+    <Product ID="ProPlus2019Volume" PIDKEY="P8JNF-YX2R9-DP6FR-39994-JHXG3">
+      <Language ID="es-es" />
+      <ExcludeApp ID="Groove" />
+      <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="OneDrive" />
+      <ExcludeApp ID="OneNote" />
+      <ExcludeApp ID="Outlook" />
+    </Product>
+    <Product ID="LanguagePack">
+      <Language ID="es-es" />
+      <ExcludeApp ID="Groove" />
+      <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="OneDrive" />
+      <ExcludeApp ID="OneNote" />
+      <ExcludeApp ID="Outlook" />
+    </Product>
+    <Product ID="ProofingTools">
+      <Language ID="es-es" />
+    </Product>
+  </Add>
+  <Property Name="SharedComputerLicensing" Value="0" />
+  <Property Name="PinIconsToTaskbar" Value="TRUE" />
+  <Property Name="SCLCacheOverride" Value="0" />
+  <Property Name="AUTOACTIVATE" Value="1" />
+  <Property Name="FORCEAPPSHUTDOWN" Value="FALSE" />
+  <Property Name="DeviceBasedLicensing" Value="0" />
+  <Updates Enabled="TRUE" />
+  <RemoveMSI />
+  <AppSettings>
+    <Setup Name="Company" Value="Congreso de la Ciudad de México" />
+  </AppSettings>
+</Configuration>
